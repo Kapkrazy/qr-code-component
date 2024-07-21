@@ -8,7 +8,7 @@
     --fw-700 : 700;
     --fw-400 : 400;
 }
-
+/*css reset from https://www.joshwcomeau.com/css/custom-css-reset/ */
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -58,7 +58,7 @@
 
   body{
     background-color: var(--bg-color-primary);
-    font-family: Outfit;
+    font-family: "Outfit";
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -67,9 +67,8 @@
 
 
   main{
-    padding: 1rem;
+    padding: 0.825rem;
     max-width: 325px;
-    grid-template-columns: 1fr;
     background-color: var(--bg-color-secondary);
     border-radius: 0.5rem;
     display: flex; 
@@ -97,6 +96,6 @@
     text-align: center;
     font-size: 15px;
     margin-top:1rem ;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
  
